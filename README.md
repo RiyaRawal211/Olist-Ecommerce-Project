@@ -34,20 +34,47 @@ By combining SQL analysis with business thinking, this project demonstrates how 
 
 This project answers real business questions using SQL in BigQuery, focused on three main themes:
 
-###  KPI Analysis
-- What is the monthly revenue trend?
-- Which states and categories generate the most sales?
-- What is the average order value and delivery time?
+## 🔍 Key Business Questions
+## 🔍 Key Business Questions
 
-###  Churn Analysis
-- What % of customers are one-time buyers?
-- Do delays or low review scores drive churn?
-- How does repeat buyer behavior differ?
+This project explores the Olist Brazilian e-commerce dataset to extract actionable business insights using SQL and BigQuery. The analysis focuses on three core areas: business performance (KPI), customer churn, and demand forecasting.
 
-###  Forecasting
-- Can we predict order volume for the next 3 months?
-- Are there seasonal patterns in sales?
-- Which product categories are expected to grow?
+---
+
+### 📊 KPI Analysis (Key Performance Indicators)
+- What is the total monthly revenue, and how has it trended over time?
+- Which product categories and states generate the most revenue?
+- What is the average order value (AOV) and average freight cost per order?
+- What is the distribution of payment methods and installment behavior?
+- What are the average delivery times, and how often are deliveries delayed?
+- Which states or sellers experience the most delivery delays?
+- Which products and categories have the highest sales volume?
+
+---
+
+### 🔁 Churn Analysis
+- What percentage of customers made only one purchase (churned customers)?
+- How does customer behavior differ between one-time and repeat buyers?
+- Are late deliveries associated with higher churn?
+- Do lower review scores correlate with customer churn?
+- What is the churn rate across different customer segments (e.g., state, product category)?
+- What is the customer retention rate over 30, 60, and 90-day periods?
+
+*Churn Definition: A churned customer is one who made only one purchase and has not returned for at least 180 days.*
+
+---
+
+### 🔮 Forecasting & Trend Analysis
+- What is the predicted order volume for the next 3 months?
+- Can we forecast revenue trends based on historical data?
+- Are there seasonal patterns in sales or customer behavior?
+- Which product categories show consistent month-over-month growth?
+- Can we anticipate delivery delays based on past trends?
+
+---
+
+Each of these questions is backed by SQL queries in BigQuery and will be visualized (optional) using Tableau or Google Sheets. Together, they simulate the core analytical tasks performed by data analysts in e-commerce companies like Amazon, Flipkart, or Meesho.
+
 
 
 
