@@ -13,7 +13,19 @@ The goal of this project is to use SQL and BigQuery to derive actionable busines
 
 By combining SQL analysis with business thinking, this project demonstrates how a data analyst can help e-commerce companies optimize growth, improve logistics, and retain customers.
 
-goals
+
+
+
+
+##  Project Goals
+
+- Analyze monthly revenue, top-selling categories, and regional sales performance
+- Identify customer churn patterns based on order history and satisfaction
+- Evaluate delivery performance and its impact on reviews
+- Forecast future order volume using historical trends
+- Practice writing efficient, real-world SQL queries in BigQuery
+- Organize work with a professional GitHub structure and clear documentation
+
 
 
 
