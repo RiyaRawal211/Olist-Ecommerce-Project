@@ -48,3 +48,40 @@ This project answers real business questions using SQL in BigQuery, focused on t
 - Can we predict order volume for the next 3 months?
 - Are there seasonal patterns in sales?
 - Which product categories are expected to grow?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+##  Business 
+
+This project simulates how im helping
+- Marketing (by identifying churn risk)
+- Logistics (by analyzing delivery delays)
+- Finance (by forecasting revenue)
+
