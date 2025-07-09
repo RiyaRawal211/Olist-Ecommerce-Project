@@ -17,7 +17,7 @@ By combining SQL analysis with business thinking, this project demonstrates how 
 
 
 
-##  Project Goals
+##  Project Goals (Remove it later)
 
 - Analyze monthly revenue, top-selling categories, and regional sales performance
 - Identify customer churn patterns based on order history and satisfaction
