@@ -112,3 +112,33 @@ This project simulates how im helping
 - Logistics (by analyzing delivery delays)
 - Finance (by forecasting revenue)
 
+
+
+
+
+🧼 Cleaning Plan for orders Table
+✅ 1. Standardize order_status
+Convert to lowercase and trim extra spaces
+
+Keep only valid status values (like 'delivered', 'canceled')
+
+✅ 2. Remove rows with missing key fields
+Drop rows where order_id, customer_id, or order_purchase_timestamp is NULL
+
+✅ 3. Validate timestamp sequence
+Ensure delivery date ≥ purchase date (if both are present)
+
+Optionally filter rows where timestamps conflict (e.g., delivery before purchase)
+
+✅ 4. Decide what to do with other NULLs
+order_approved_at, order_delivered_customer_date, etc. can be NULL — decide whether to:
+
+Keep as-is (for canceled/incomplete orders)
+
+Or filter out for analysis purposes
+
+✅ 5. Save cleaned table
+Create a new table called cleaned_orders with all fixes applied
+
+
+
